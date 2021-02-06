@@ -13,7 +13,7 @@ function App() {
       <h3>Learn Redux !</h3>
       <h4>counter: {counterVar}</h4>
 
-      <button onClick={ () => dispatch(increment()) }>+</button>
+      <button onClick={ () => dispatch(increment(5)) }>+</button>
       <button onClick={ () => dispatch(decrement()) }>-</button>
 
       <h3>{ isLogged ? 'Logged In :)' : '' }</h3>

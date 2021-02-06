@@ -16,7 +16,7 @@ const store = createStore(
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-    {/* <Provider store={myStore}> */}
+    {/* or <Provider store={myStore}> */}
       <App />
     </Provider>
   </React.StrictMode>,

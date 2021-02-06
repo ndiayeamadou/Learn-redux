@@ -5,6 +5,7 @@
 ### react-redux --- gives us the ability to connect react & redux together
 
 * reducers folder
-    ** counter : state
-    ** isLogged : state
-    ** index : is the combine reducer
+    * counter : state
+    * isLogged : state
+    * index : is the combine reducer
+* actions folder
